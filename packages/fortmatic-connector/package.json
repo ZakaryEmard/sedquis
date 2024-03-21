@@ -1,0 +1,47 @@
+{
+  "name": "@tbouder/fortmatic-connector",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TBouder/web3-react-fork.git",
+    "directory": "packages/fortmatic-connector"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "version": "1.0.6",
+  "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "ethereum",
+    "javascript",
+    "typescript",
+    "web3",
+    "context",
+    "frontend",
+    "dapp",
+    "fortmatic"
+  ],
+  "author": "Thomas Bouder <tbouder@pm.me>",
+  "main": "dist/index.js",
+  "module": "dist/fortmatic-connector.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "lint": "tsdx lint src"
+  },
+  "dependencies": {
+    "@web3-react-fork/abstract-connector": "^6.1.0",
+    "@web3-react-fork/types": "^7.0.22",
+    "fortmatic": "^1.0.0",
+    "tiny-invariant": "^1.0.6"
+  },
+  "license": "GPL-3.0-or-later",
+  "gitHead": "ab140a0c73b2f5a8803d5c203fd15972a7b0240e"
+}
